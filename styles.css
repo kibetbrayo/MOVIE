@@ -1,0 +1,18 @@
+header {
+  background-color: #b6b4b6;
+  color: #080808;
+  padding: 20px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+

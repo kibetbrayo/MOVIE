@@ -1,18 +1,52 @@
-header {
-  background-color: #b6b4b6;
-  color: #080808;
+.movie-card {
+  background-color: hsl(27, 77%, 50%);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-}
-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
-}
-.movie-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 60%;
+  margin-bottom: 20px;
 }
 
+.card-content {
+  display: flex;
+}
+
+.poster-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+#poster {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.movie-description {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #e2dedd;
+  color: #423838;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0471dd;
+}
+
+.movie-menu {
+  background-image: url(images/photo-1684690640456-381bc7183e86.avif);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}

@@ -12,24 +12,27 @@
   </header>
   
   <main>
-    <div class="movie-details">
-      <div class="poster-container">
-      </div>
-      <div class="movie-info">
-        <h2 id="title"></h2>
-        <p id="runtime"></p>
-        <p id="showtime"></p>
-        <p id="available-tickets"></p>
-        <button id="buy-ticket">Purchase Ticket</button>
+    <div class="movie-card">
+      <div class="card-content">
+        <div class="poster-container">
+          <img id="poster" src="" alt="Movie Poster">
+        </div>
+        <div class="movie-info">
+          <h2 id="title"></h2>
+          <p class="movie-runtime"></p>
+          <p class="movie-showtime"></p>
+          <p class="movie-available-tickets"></p>
+          <p class="movie-description"></p>
+          <button id="buy-ticket">Purchase Ticket</button>
+        </div>
       </div>
     </div>
-    
+
     <div class="movie-menu">
       <ul id="films"></ul>
     </div>
   </main>
 
   <script src="index.js"></script>
-  
 </body>
 </html>
